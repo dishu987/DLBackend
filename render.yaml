@@ -4,4 +4,4 @@ services:
     name: app
     runtime: python
     buildCommand: "./build.sh"
-    startCommand: "python -m gunicorn app.asgi:application -k uvicorn.workers.UvicornWorker"    envVars:
+    startCommand: "python -m gunicorn app.asgi:application -k uvicorn.workers.UvicornWorker"
